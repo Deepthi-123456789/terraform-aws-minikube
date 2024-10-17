@@ -7,7 +7,7 @@ module "minikube" {
   ssh_public_key = "~/.ssh/deepi76s.pub"
   aws_subnet_id = "subnet-01c1c823852d19a68" #replace your default subnet id
   # by default centos7 will be used
-  # ami_image_id = "ami-0b4f379183e5706b9"
+  ami_image_id = "ami-b81dbfc5"
   hosted_zone = "pjdevops.online"
   hosted_zone_private = false
 
